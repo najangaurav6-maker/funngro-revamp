@@ -4,57 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funngro - Connect Teens with Amazing Work Opportunities</title>
-    <meta name="description" content="Funngro connects talented teens with companies for freelance projects. Earn money, build skills, and grow your career with Funngro.">
-    <meta name="keywords" content="teen freelance, student jobs, Funngro, work from home, skill development">
+    <meta name="description" content="Funngro platform connects talented teens with companies. Join as teen freelancer or hire teen talent for your projects.">
+    <meta name="keywords" content="Funngro, teen freelance, hire teens, student jobs, work projects">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Funngro</div>
+            <div class="logo">
+                <span class="logo-icon">🎯</span>
+                Funngro
+            </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teens.html">For Teens</a></li>
-                <li><a href="#companies">For Companies</a></li>
-                <li><a href="#contact" class="cta-btn">Get Started</a></li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="teens.html#join-teen">Join as Teen</a></li>
+                <li><a href="#hire-talent">Hire Talent</a></li>
+                <li><a href="#get-started" class="cta-btn">Get Started</a></li>
             </ul>
+            <div class="mobile-menu">☰</div>
         </nav>
     </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Unlock Your Potential with Funngro</h1>
-            <p>Connect talented teens with real companies. Earn money, build portfolio, and land your dream job.</p>
+            <h1>Funngro: Where Teens Meet Opportunity</h1>
+            <p class="hero-subtitle">Connect with companies looking for your skills. Earn money while building your future.</p>
             <div class="hero-buttons">
-                <a href="teens.html" class="btn-primary">Join as Teen</a>
-                <a href="#companies" class="btn-secondary">Hire Talent</a>
+                <a href="teens.html#join-teen" class="btn-primary">Join as Teen</a>
+                <a href="#hire-talent" class="btn-secondary">Hire Talent</a>
             </div>
+            <div class="hero-stats">
+                <span>500+ Teens</span>
+                <span>₹50L+ Earned</span>
+                <span>100+ Projects</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="hire-talent" class="hire-section">
+        <div class="container">
+            <h2>Hire Top Teen Talent</h2>
+            <p>Access India's brightest young minds for your projects</p>
+            <div class="hire-features">
+                <div class="hire-feature">
+                    <h3>🚀 Fast Delivery</h3>
+                    <p>Projects delivered in 3 days</p>
+                </div>
+                <div class="hire-feature">
+                    <h3>💎 Quality Guaranteed</h3>
+                    <p>Vetted talent only</p>
+                </div>
+                <div class="hire-feature">
+                    <h3>💰 Budget Friendly</h3>
+                    <p>50% cheaper than agencies</p>
+                </div>
+            </div>
+            <a href="#contact" class="btn-primary large">Post Your Project</a>
         </div>
     </section>
 
     <section class="features">
         <div class="container">
-            <h2>Why Choose Funngro?</h2>
+            <h2>Perfect for Both Sides</h2>
             <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>💼 Real Projects</h3>
-                    <p>Work on live company projects and build your portfolio.</p>
+                <div class="feature-card teen-card">
+                    <div class="card-icon">👩‍💻</div>
+                    <h3>Join as Teen</h3>
+                    <p>Get matched with real company projects</p>
+                    <a href="teens.html#join-teen" class="btn-link">Start Earning →</a>
                 </div>
-                <div class="feature-card">
-                    <h3>💰 Get Paid</h3>
-                    <p>Earn competitive rates for every project you complete.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>🎯 Skill Growth</h3>
-                    <p>Learn from experts and level up your career skills.</p>
+                <div class="feature-card company-card">
+                    <div class="card-icon">🏢</div>
+                    <h3>Hire Talent</h3>
+                    <p>Find skilled teens for your projects</p>
+                    <a href="#hire-talent" class="btn-link">Post Job →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="contact">
         <div class="container">
-            <p>&copy; 2026 Funngro. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Funngro</h3>
+                    <p>Connecting teen talent with company opportunities</p>
+                </div>
+                <div class="footer-links">
+                    <a href="teens.html">Join as Teen</a>
+                    <a href="#hire-talent">Hire Talent</a>
+                    <a href="#privacy">Privacy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Funngro. Built with ❤️ for Indian talent.</p>
+            </div>
         </div>
     </footer>
 </body>
