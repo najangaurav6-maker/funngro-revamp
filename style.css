@@ -272,4 +272,112 @@ footer a {
         flex-direction: column;
         align-items: center;
     }
+
+}
+/* Add to your existing style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.hire-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.hire-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.huge {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.4rem !important;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.story-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.teen-card { border-top: 4px solid #ff6b35; }
+.company-card { border-top: 4px solid #667eea; }
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-link {
+    color: #ff6b35;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.process-steps {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.process-step {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.process-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -2rem;
+    width: 3rem;
+    height: 2px;
+    background: #ff6b35;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .process-step:not(:last-child)::after {
+        display: none;
+    }
 }
